@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://maticatecno.com.br/imagem/anisio.jpeg" width="400" alt="anísio Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://maticatecno.com.br/imagem/anisio.jpeg" width="200" alt="anísio Logo"></a></p>
 
 <p align="center">
 Projeto anisiocoin
