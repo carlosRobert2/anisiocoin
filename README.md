@@ -15,6 +15,11 @@ Projeto anisiocoin
 - composer
 
 
+Traduzir para o português [Módulo de linguagem pt_BR] no endereço: https://github.com/lucascudo/laravel-pt-BR-localization
+No arquivo .env altere a linha 8: APP_LOCALE=pt_BR
+
+
+
 
 
 ## License
