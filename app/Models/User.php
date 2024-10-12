@@ -44,4 +44,18 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+    public function wallet()
+    {
+        return $this->hasOne(Wallet::class);
+    }
+
+    //Método para garantir que todos os usuários criados tenham carteira
+    protected static function booted()
+{
+    static::created(function ($user) {
+        // Cria uma carteira automaticamente para o usuário assim que ele é registrado
+        Wallet::create(['user_id' => $user->id, 'balance' => 0]);
+    });
+}
+
 }
